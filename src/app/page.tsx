@@ -9,46 +9,51 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm fixed w-full z-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
-            <div className="flex items-center">
-              <span className="text-xl font-bold text-gray-800">JS</span>
-            </div>
-            <div className="flex items-center space-x-4">
-              <Link href="#about" className="text-gray-600 hover:text-gray-900">Sobre mí</Link>
-              <Link href="#projects" className="text-gray-600 hover:text-gray-900">Proyectos</Link>
-              <Link href="#contact" className="text-gray-600 hover:text-gray-900">Contacto</Link>
-            </div>
+      <nav className="fixed w-full z-50 bg-background/90 backdrop-blur-sm border-b border-border">
+        <div className="container flex justify-between h-16">
+          <div className="flex items-center">
+            <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary-foreground bg-clip-text text-transparent">JS</span>
+          </div>
+          <div className="flex items-center space-x-6">
+            <Link href="#about" className="text-foreground hover:text-primary transition-colors duration-200">
+              Sobre mí
+            </Link>
+            <Link href="#projects" className="text-foreground hover:text-primary transition-colors duration-200">
+              Proyectos
+            </Link>
+            <Link href="#contact" className="text-foreground hover:text-primary transition-colors duration-200">
+              Contacto
+            </Link>
           </div>
         </div>
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <div className="mx-auto h-32 w-32 rounded-full overflow-hidden mb-8">
+      <section className="pt-32 pb-20 bg-gradient-to-b from-background to-muted">
+        <div className="container">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="relative mx-auto h-40 w-40 rounded-full overflow-hidden mb-8 shadow-xl ring-4 ring-primary/20">
               <Image
                 src="/profile.jpg"
                 alt="Joel Sánchez"
-                width={128}
-                height={128}
+                width={160}
+                height={160}
                 className="object-cover"
+                priority
               />
             </div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
               Joel Sánchez
             </h1>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-              Soy Joel Sánchez, técnico especializado en automatización industrial con pasión por el desarrollo web y la programación. Actualmente enfocado en proyectos tecnológicos aplicados a la industria y soluciones digitales remotas.
+            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10">
+              Técnico especializado en automatización industrial con pasión por el desarrollo web. Enfocado en proyectos tecnológicos aplicados a la industria y soluciones digitales remotas.
             </p>
-            <div className="flex justify-center space-x-4">
+            <div className="flex flex-wrap justify-center gap-4">
               <a
                 href="https://github.com/Joel-dev-robots"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
+                className="bg-foreground text-white px-6 py-3 rounded-lg hover:opacity-90 shadow-subtle transition-all duration-200 hover:translate-y-[-2px]"
               >
                 GitHub
               </a>
@@ -56,18 +61,34 @@ export default function Home() {
                 href="https://linkedin.com/in/yourusername"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+                className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 shadow-subtle transition-all duration-200 hover:translate-y-[-2px]"
               >
                 LinkedIn
+              </a>
+              <a
+                href="#contact"
+                className="bg-secondary text-secondary-foreground px-6 py-3 rounded-lg hover:bg-secondary/80 shadow-subtle transition-all duration-200 hover:translate-y-[-2px]"
+              >
+                Contacto
               </a>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Main Content */}
       <About />
       <Projects />
       <Contact />
+      
+      {/* Footer */}
+      <footer className="py-8 border-t border-border">
+        <div className="container text-center">
+          <p className="text-muted-foreground">
+            © {new Date().getFullYear()} Joel Sánchez. Todos los derechos reservados.
+          </p>
+        </div>
+      </footer>
     </div>
   )
 } 
