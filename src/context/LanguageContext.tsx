@@ -296,8 +296,8 @@ const translations: Record<string, Record<Language, TranslationValue>> = {
     EN: 'You can also contact me directly via:',
   },
   'contact.emailMe': {
-    ES: 'Email',
-    EN: 'Email',
+    ES: 'Correo electrónico',
+    EN: 'Email me',
   },
   'contact.linkedinConnect': {
     ES: 'Conéctate conmigo profesionalmente',

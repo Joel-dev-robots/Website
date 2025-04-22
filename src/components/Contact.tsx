@@ -101,7 +101,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium text-foreground mb-1 group-hover:text-primary transition-colors">{t('contact.emailMe')}</h4>
-                    <p className="text-muted-foreground">joelschzmrtz@gmail.com</p>
+                    <p className="text-muted-foreground">Escríbeme y estamos en contacto</p>
                   </div>
                 </a>
                 
