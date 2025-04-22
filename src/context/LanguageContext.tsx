@@ -199,6 +199,10 @@ const translations: Record<string, Record<Language, TranslationValue>> = {
     ES: 'Aplicación que integra cámaras industriales y algoritmos de visión artificial para la detección automatizada de defectos en líneas de producción, aumentando la precisión del control de calidad.',
     EN: 'Application integrating industrial cameras and machine vision algorithms for automated defect detection in production lines, increasing quality control accuracy.',
   },
+  'projects.confidentialityMessage': {
+    ES: 'Algunos proyectos son privados debido a la confidencialidad del cliente, otros están disponibles en GitHub o desplegados en vivo.',
+    EN: 'Some projects are private due to client confidentiality, others available on GitHub or deployed live.',
+  },
   
   // Skills Section
   'skills.title': {
