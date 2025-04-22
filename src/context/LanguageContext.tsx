@@ -48,8 +48,8 @@ const translations: Record<string, Record<Language, TranslationValue>> = {
     EN: 'Joel Sánchez',
   },
   'hero.description': {
-    ES: 'Especialista en Sistemas de Codificación Industrial & Desarrollador Full Stack. Combinando conocimientos técnicos en electrónica y automatización con habilidades avanzadas en desarrollo de software.',
-    EN: 'Industrial Coding Systems Specialist & Full Stack Developer. Combining technical knowledge in electronics and automation with advanced software development skills.',
+    ES: 'Especialista en Robótica Industrial & Desarrollador Full Stack. Combinando conocimientos técnicos en electrónica y automatización con habilidades avanzadas en desarrollo de software.',
+    EN: 'Industrial Robotics Specialist & Full Stack Developer. Combining technical knowledge in electronics and automation with advanced software development skills.',
   },
   'hero.github': {
     ES: 'GitHub',

@@ -140,7 +140,7 @@ export default function Home() {
                 href="mailto:joelschzmrtz@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Escríbeme y estamos en contacto
+                Correo Electrónico
               </a>
             </div>
           </div>
