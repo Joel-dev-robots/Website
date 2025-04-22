@@ -19,7 +19,7 @@ export default function Projects() {
       titleKey: 'projects.project2Title',
       descriptionKey: 'projects.project2Description',
       technologies: ['React', 'TypeScript', 'Chart.js', 'Firebase'],
-      image: '/twitter-summarizer.jpg',
+      image: '/celular.jpg',
       isConfidential: true
     },
     {
@@ -41,10 +41,10 @@ export default function Projects() {
         <div className="max-w-6xl mx-auto">
           <div className="section-title">
             <h2 className="font-bold">
-              {t('projects.title')}
+              {t('projects.title') as string}
             </h2>
             <p className="text-muted-foreground text-lg mb-2">
-              {t('projects.subtitle')}
+              {t('projects.subtitle') as string}
             </p>
           </div>
           
@@ -64,7 +64,7 @@ export default function Projects() {
                 <div className="relative h-48 overflow-hidden">
                   <Image
                     src={project.image}
-                    alt={t(project.titleKey)}
+                    alt={t(project.titleKey) as string}
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                     fill
                   />
@@ -80,8 +80,8 @@ export default function Projects() {
                   )}
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-3">{t(project.titleKey)}</h3>
-                  <p className="mb-4">{t(project.descriptionKey)}</p>
+                  <h3 className="text-xl font-semibold mb-3">{t(project.titleKey) as string}</h3>
+                  <p className="mb-4">{t(project.descriptionKey) as string}</p>
                   <div className="flex flex-wrap gap-2 mt-auto">
                     {project.technologies.map(tech => (
                       <span key={tech} className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
@@ -101,7 +101,7 @@ export default function Projects() {
               rel="noopener noreferrer"
               className="btn-primary group"
             >
-              <span>{t('projects.viewMore')}</span>
+              <span>{t('projects.viewMore') as string}</span>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
