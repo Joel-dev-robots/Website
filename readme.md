@@ -1,36 +1,98 @@
-🌐 Propuesta de Estructura para tu Web
-Vamos a destacar tu perfil técnico, tu transición al desarrollo, y los proyectos que vayas creando con Cursor. Aquí va un diseño base pensado para eso:
+# Portfolio Web - Joel Sánchez
 
-🏠 Home (Inicio)
-Foto tuya o avatar.
+## 🚀 Descripción
+Portfolio profesional que muestra mi experiencia como Especialista en Sistemas de Codificación Industrial y mis habilidades como Desarrollador Full Stack. Esta web combina un diseño moderno y atractivo con una estructura optimizada para destacar mi perfil técnico y proyectos destacados.
 
-Mensaje claro:
+## 🛠️ Tecnologías Utilizadas
+![Next.js](https://img.shields.io/badge/-Next.js_13-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/-React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
-"Soy Joel Sánchez, técnico especializado en automatización industrial con pasión por el desarrollo web y la programación. Actualmente enfocado en proyectos tecnológicos aplicados a la industria y soluciones digitales remotas."
+## 📋 Estructura del Proyecto
+```
+website/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── globals.css
+│   ├── components/
+│   │   ├── About.tsx
+│   │   ├── Projects.tsx
+│   │   └── Contact.tsx
+│   └── pages/
+├── public/
+│   └── profile.jpg
+├── package.json
+├── tsconfig.json
+├── tailwind.config.js
+└── postcss.config.js
+```
 
-Botón a: GitHub, LinkedIn (si lo haces), Contacto.
+## 🏠 Secciones Principales
 
-🧑‍💻 Sobre mí
-Tu experiencia con robótica, reparación de sistemas, y automatización.
+### Inicio
+- Hero section con foto de perfil
+- Presentación personal y profesional
+- Enlaces a redes profesionales y contacto
 
-Explicación breve de tu cambio de rama:
+### Sobre Mí
+- Perfil técnico y especialización
+- Experiencia laboral detallada
+- Stack de habilidades técnicas
 
-"Tras años trabajando en automatización industrial, he comenzado una transición profesional hacia el desarrollo de software, uniendo mis habilidades técnicas con herramientas modernas de programación."
+### Proyectos
+- Sistema de Monitorización Remota
+- Dashboard de Productividad
+- Sistema de Gestión de Incidencias
 
-💼 Proyectos
-Sección donde mostraremos:
+### Contacto
+- Formulario de contacto
+- Información profesional
+- Enlaces a redes sociales
 
+## 🚀 Instalación y Ejecución
 
-Proyecto	Descripción breve
-Spare Parts Finder (ejemplo)	App para encontrar repuestos en sistemas industriales.
-Twitter Feed Summarizer	Proyecto React + API para filtrar y resumir tweets.
-Automatización de pruebas	Sistema embebido para testear equipos de impresión (proyecto técnico anterior).
-Cada uno con capturas, tecnologías usadas y un link al código en GitHub.
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/Joel-dev-robots/portfolio-website.git
+cd portfolio-website
+```
 
-📩 Contacto
-Formulario simple o un correo directo:
+2. Instalar dependencias:
+```bash
+npm install
+```
 
-txt
-Copiar
-Editar
-albertonavarro.dev@gmail.com
+3. Ejecutar en modo desarrollo:
+```bash
+npm run dev
+```
+
+4. Construir para producción:
+```bash
+npm run build
+```
+
+5. Iniciar servidor de producción:
+```bash
+npm start
+```
+
+## ✨ Características
+
+- **Diseño Responsive**: Adaptado a todos los dispositivos
+- **Animaciones Modernas**: Transiciones suaves y efectos visuales
+- **Dark Mode**: Tema oscuro optimizado
+- **SEO Optimizado**: Meta etiquetas y estructura optimizada para buscadores
+- **Rendimiento Optimizado**: Carga rápida y optimización de imágenes
+
+## 🤝 Contacto
+- Email: joelschzmrtz@gmail.com
+- GitHub: [Joel-dev-robots](https://github.com/Joel-dev-robots)
+- LinkedIn: [joel-sanchez-martinez](https://linkedin.com/in/joel-sanchez-martinez)
+
+---
+
+Desarrollado con ❤️ por Joel Sánchez
