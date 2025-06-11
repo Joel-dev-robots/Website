@@ -275,6 +275,10 @@ const translations: Record<string, Record<Language, TranslationValue>> = {
     ES: 'Correo electrónico',
     EN: 'Email me',
   },
+  'contact.getInTouch': {
+    ES: 'Escríbeme y estamos en contacto',
+    EN: 'Write me and let\'s get in touch',
+  },
   
   // Footer
   'footer.rights': {
