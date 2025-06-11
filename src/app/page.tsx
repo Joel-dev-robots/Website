@@ -83,23 +83,12 @@ export default function Home() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/in/joel-sanchez-martinez"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="mailto:joelschzmrtz@gmail.com"
                 className="btn-secondary group"
               >
-                <span>{t('hero.linkedin')}</span>
+                <span>Email</span>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </a>
-              <a
-                href="#contact"
-                className="btn-primary group"
-              >
-                <span>{t('nav.contact')}</span>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </a>
             </div>
@@ -129,18 +118,10 @@ export default function Home() {
                 GitHub
               </a>
               <a
-                href="https://linkedin.com/in/joel-sanchez-martinez"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                LinkedIn
-              </a>
-              <a
                 href="mailto:joelschzmrtz@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Correo Electrónico
+                Escríbeme y estamos en contacto
               </a>
             </div>
           </div>

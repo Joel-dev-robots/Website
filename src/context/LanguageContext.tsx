@@ -48,16 +48,12 @@ const translations: Record<string, Record<Language, TranslationValue>> = {
     EN: 'Joel Sánchez',
   },
   'hero.description': {
-    ES: 'Especialista en Robótica Industrial & Desarrollador Full Stack. Combinando conocimientos técnicos en electrónica y automatización con habilidades avanzadas en desarrollo de software.',
-    EN: 'Industrial Robotics Specialist & Full Stack Developer. Combining technical knowledge in electronics and automation with advanced software development skills.',
+    ES: 'Especialista en Sistemas de Codificación Industrial & Desarrollador Full Stack. Combinando conocimientos técnicos en electrónica y automatización con habilidades avanzadas en desarrollo de software.',
+    EN: 'Industrial Coding Systems Specialist & Full Stack Developer. Combining technical knowledge in electronics and automation with advanced software development skills.',
   },
   'hero.github': {
     ES: 'GitHub',
     EN: 'GitHub',
-  },
-  'hero.linkedin': {
-    ES: 'LinkedIn',
-    EN: 'LinkedIn',
   },
   
   // About Section
@@ -271,37 +267,13 @@ const translations: Record<string, Record<Language, TranslationValue>> = {
     ES: '¿Interesado en trabajar juntos?',
     EN: 'Interested in working together?',
   },
-  'contact.name': {
-    ES: 'Nombre',
-    EN: 'Name',
-  },
-  'contact.email': {
-    ES: 'Email',
-    EN: 'Email',
-  },
-  'contact.subject': {
-    ES: 'Asunto',
-    EN: 'Subject',
-  },
-  'contact.message': {
-    ES: 'Mensaje',
-    EN: 'Message',
-  },
-  'contact.send': {
-    ES: 'Enviar mensaje',
-    EN: 'Send message',
-  },
-  'contact.alternateContact': {
-    ES: 'También puedes contactarme directamente por:',
-    EN: 'You can also contact me directly via:',
+  'contact.directContact': {
+    ES: 'Ponte en contacto conmigo directamente:',
+    EN: 'Get in touch with me directly:',
   },
   'contact.emailMe': {
     ES: 'Correo electrónico',
     EN: 'Email me',
-  },
-  'contact.linkedinConnect': {
-    ES: 'Conéctate conmigo profesionalmente',
-    EN: 'Connect with me professionally',
   },
   
   // Footer

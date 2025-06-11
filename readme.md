@@ -35,7 +35,7 @@ website/
 ### Inicio
 - Hero section con foto de perfil
 - Presentación personal y profesional
-- Enlaces a redes profesionales y contacto
+- Enlaces a GitHub y contacto directo
 
 ### Sobre Mí
 - Perfil técnico y especialización
@@ -48,9 +48,8 @@ website/
 - Sistema de Gestión de Incidencias
 
 ### Contacto
-- Formulario de contacto
+- Contacto directo por email
 - Información profesional
-- Enlaces a redes sociales
 
 ## 🚀 Instalación y Ejecución
 
@@ -91,7 +90,6 @@ npm start
 ## 🤝 Contacto
 - Email: joelschzmrtz@gmail.com
 - GitHub: [Joel-dev-robots](https://github.com/Joel-dev-robots)
-- LinkedIn: [joel-sanchez-martinez](https://linkedin.com/in/joel-sanchez-martinez)
 
 ---
 
