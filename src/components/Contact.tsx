@@ -36,7 +36,7 @@ export default function Contact() {
               <div className="text-left">
                 <h4 className="text-xl font-medium text-foreground mb-1 group-hover:text-primary transition-colors">{t('contact.emailMe')}</h4>
                 <p className="text-muted-foreground">joelschzmrtz@gmail.com</p>
-                <p className="text-sm text-muted-foreground mt-1">Escríbeme y estamos en contacto</p>
+                <p className="text-sm text-muted-foreground mt-1">Contacto directo y profesional</p>
               </div>
             </a>
           </div>

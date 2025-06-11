@@ -121,7 +121,7 @@ export default function Home() {
                 href="mailto:joelschzmrtz@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Escríbeme y estamos en contacto
+                Contacto directo
               </a>
             </div>
           </div>
